@@ -408,15 +408,16 @@ footer-info {
 }
 
 
-.border-bg {
-    border-style: solid;
-    border-width: 1px;
+.pic {
     padding: 10px;
     background-image: url("https://www.ferra.ru/imgs/2023/08/30/17/6121509/7c9fe96fc683d47695fa3993137b7b68d3130374.jpeg");
     background-repeat: no-repeat;
-    margin-bottom: 50px;
+    background-size: cover;
 }
 
+.table-bg{
+    margin-bottom: 50px;
+}
 .call-back-form {
     display: flex;
     justify-content: space-between;
