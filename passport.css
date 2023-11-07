@@ -1,31 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Шаблон паспорт</title>
-    <link rel="stylesheet" href="passport.css">
-</head>
-<body>
-<div class='body'>
-    <div class='left-part'>
-        <img class='face-img'
-             src="https://sun9-65.userapi.com/impg/6YKM-b8ycsGkcdhldSX6oQqWheJPptZX_fi7Hw/m9RcccZsrD4.jpg?size=960x1280&quality=95&sign=bb68b3ee27574daccc9be18e54dc954b&type=album">
-    </div>
-    <div class='text'><p class='gu-mvd'>ГУ МВД ПО Г. МОСКВЕ</p>
-        <p class='kod-date'>01.01.2023<span>007-008</span></p>
-        <p class='personal-code'>Какой такой код???</p>
-        <p class='surname'>Сюй</p>
-        <p class='name'>Алиса</p>
-        <p class='otch'>—</p>
-        <p class='sex'><span>Жен.</span><span>15.10.2002 год</span></p>
-        <p class='city'>г. Москва</p></div>
+.body {
+    background-image: url('https://photoshopy.net/uploads/posts/2009-11/1258036505_pic.jpg');
+    background-repeat: no-repeat;
+    margin: 50px 50px;
+}
 
+.text{
+    margin-top: 5px;
+}
 
-    <div class='button'>
-        <p id='for_click' class='kek'>For English шлеп сюда</p>
-    </div>
-</div>
+.face-img {
+    width: 160px;
+    margin-top: 400px;
+    margin-left: 10px;
+}
 
-<script src="passport.js"></script>
-</body>
-</html>
+p.gu-mvd {
+    margin-top: -550px;
+    margin-left: 150px;
+}
+
+p.kod-date{
+    margin-left: 130px;
+    margin-top: 60px;
+}
+
+p.kod-date > span {
+    padding-left: 150px;
+}
+
+p.personal-code {
+    margin-top: 33px;
+    margin-left: 320px;
+}
+
+p.surname {
+    margin-top: 180px;
+    margin-left: 250px;
+}
+
+p.name {
+    margin-top: 40px;
+    margin-left: 250px;
+}
+
+p.otch {
+    margin-top: -10px;
+    margin-left: 250px;
+}
+
+p.sex{
+    margin-left: 100px;
+    margin-top: -5px;
+}
+p.sex>span{
+    padding-left: 100px;
+}
+p.city{
+    margin-left: 250px;
+    margin-top: -10px;
+
+}
+
+.button {
+    display: inline-block;
+    margin-top: 200px;
+    border-style: solid;
+    padding: .25em .5em;
+    background-color: pink;
+    font-size: 30px;
+}
+
