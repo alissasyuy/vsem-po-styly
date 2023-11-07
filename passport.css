@@ -1,0 +1,66 @@
+body {
+    background-image: url('https://photoshopy.net/uploads/posts/2009-11/1258036505_pic.jpg');
+    background-repeat: no-repeat;
+}
+
+.face-img {
+    width: 160px;
+    margin-top: 400px;
+}
+
+p.gu-mvd {
+    margin-top: -550px;
+    margin-left: 150px;
+}
+
+p.kod-date{
+    margin-left: 130px;
+    margin-top: 60px;
+}
+
+p.kod-date > span {
+    padding-left: 150px;
+}
+
+p.personal-code {
+    margin-top: 33px;
+    margin-left: 320px;
+}
+
+p.surname {
+    margin-top: 180px;
+    margin-left: 250px;
+}
+
+p.name {
+    margin-top: 40px;
+    margin-left: 250px;
+}
+
+p.otch {
+    margin-top: -10px;
+    margin-left: 250px;
+}
+
+p.sex{
+    margin-left: 100px;
+    margin-top: -5px;
+}
+p.sex>span{
+    padding-left: 100px;
+}
+p.city{
+    margin-left: 250px;
+    margin-top: -10px;
+
+}
+
+.button {
+    display: inline-block;
+    margin-top: 200px;
+    border-style: solid;
+    padding: .25em .5em;
+    background-color: pink;
+    font-size: 30px;
+}
+
