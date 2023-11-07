@@ -56,7 +56,8 @@
 <section>
     <div class='wrapper'>
         <h2 class="title-h2">Оформление заказа:</h2>
-        <p>Если вы еще не ознакомились с нашим ассортиментов, то рекомендует перейти на <a href="site.html">ссылке</a>.</p>
+        <p>Если вы еще не ознакомились с нашим ассортиментов, то рекомендует перейти на <a href="site.html">ссылке</a>.
+        </p>
         <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
             <p>Для поисковика: <input name="q" type="Text" value="search"></p>
             <p>Имя: <input name="name" size=20 type="Text" placeholder="Вабу-лабу"></p>
@@ -92,7 +93,8 @@
                           placeholder="Укажите позиции в формате: артикул - количество"></TEXTAREA>
             </p>
             <input name="rand-num" type="number" value=1> Для исследовательских целей: впишите рандомное число от 1 до
-            10. Тык <a href="https://pikabu.ru/story/opros_bolee_8500_studentov_vyibrat_chislo_ot_1_do_10_6403952">сюда для статистики.</a>
+            10. Тык <a href="https://pikabu.ru/story/opros_bolee_8500_studentov_vyibrat_chislo_ot_1_do_10_6403952">сюда
+            для статистики.</a>
             <br><br>
             <input name="function" type="hidden" value="page">
             <input name="page_id" type="hidden" value="a small secret here">
@@ -104,32 +106,44 @@
 
 
         <br><br>
-        <div class=border-bg>
-            <h2 class="title-h2">Оплата:</h2>
-            <p>Мы работаем по 100% предоплате, после оплаты с вами свяжется наш менеджер.
-                <br><br>В случае, если требуются корректировки заказов на меньшее количество позиций, сумма средств
-                не
-                возвращается.
-            </p>
-            <form action="https://www.bing.com/search?" id="UserEnter2" name="UserEnter" target="_blank">
-                <p>Для поисковика:<input name="q" type="Text" value="search"></p>
-                <p>Номер вашей карты: <input name="card-number" size=20 type="Text"
-                                             placeholder="4275 6789 1201 1234">
-                </p>
-                <p>CVV код: <input name="cvv" size=9 type="Password" placeholder="***"></p>
-                <p>Срок действия карты: <input name="expire-date" type="date"></p>
-                <p>
-                    <input name="function" type="hidden" value="page">
-                    <input name="page_id" type="hidden" value="3"></p>
-                <p>
-                    <input name="Reset" type="Reset" value="Обновить">
-                    <input name="submit" type="Submit" value="Отправить">
-                    <input type="button" onclick="alert(document.getElementById('datePage').value)"
-                           value="Вы не украдете мои деньги?">
-                    <input type="hidden" id="datePage"
-                           value="Нет, ни в коем случае. Мы надежная компания, такая же как и наши стулья. Лучше нажмите на кнопку 'отправить' данные карты. Она находится чуть левее от этой кнопки.">
-            </form>
+        <div class='table-bg'>
+            <table border="1">
+                <tr>
+                    <td><h2 class="title-h2">Оплата:</h2>
+                        <p>Мы работаем по 100% предоплате, после оплаты с вами свяжется наш менеджер.
+                            <br><br>В случае, если требуются корректировки заказов на меньшее количество позиций, сумма
+                            средств
+                            не
+                            возвращается.</p></td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class='pic'>
+                            <form action="https://www.bing.com/search?" id="UserEnter2" name="UserEnter"
+                                  target="_blank">
+                                <p>Для поисковика:<input name="q" type="Text" value="search"></p>
+                                <p>Номер вашей карты: <input name="card-number" size=20 type="Text"
+                                                             placeholder="4275 6789 1201 1234">
+                                </p>
+                                <p>CVV код: <input name="cvv" size=9 type="Password" placeholder="***"></p>
+                                <p>Срок действия карты: <input name="expire-date" type="date"></p>
+                                <p>
+                                    <input name="function" type="hidden" value="page">
+                                    <input name="page_id" type="hidden" value="3"></p>
+                                <p>
+                                    <input name="Reset" type="Reset" value="Обновить">
+                                    <input name="submit" type="Submit" value="Отправить">
+                                    <input type="button" onclick="alert(document.getElementById('datePage').value)"
+                                           value="Вы не украдете мои деньги?">
+                                    <input type="hidden" id="datePage"
+                                           value="Нет, ни в коем случае. Мы надежная компания, такая же как и наши стулья. Лучше нажмите на кнопку 'отправить' данные карты. Она находится чуть левее от этой кнопки.">
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            </table>
         </div>
+
     </div>
 </section>
 
