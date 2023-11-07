@@ -423,22 +423,30 @@ footer-info {
 }
 
 .busy {
-    border-style: dashed;
-    border-width: 1px;
     padding: 15px;
     margin: 30px;
 
 }
 
-.user{
+.user {
     display: flex;
-    align-items: center;}
-.avatar{
+    align-items: center;
+}
+
+.avatar {
     margin-right: 10px;
 }
-.stars{margin-left: 10px;
-margin-right: 10px}
 
-.otziv{
+.stars {
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+.otziv {
     margin-bottom: 50px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
 }
